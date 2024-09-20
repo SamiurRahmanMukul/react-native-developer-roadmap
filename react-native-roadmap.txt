@@ -1,0 +1,96 @@
+  *** React Native Fundamental & Essential concepts to Study how to become a React Native Developer ***
+---------------------------------------------------------------------------------------------------------
+1. JavaScript:
+  A. ES6+ Features: Learn modern JavaScript features like let, const, arrow functions, destructuring, promises, async/await, and modules.
+  B. Basic JavaScript concepts: Closures, scopes, this, prototype, event loops, callbacks.
+
+2. TypeScript:
+  A. Basic TypeScript Syntax:
+    1. Types and Interfaces: Understand how to define types and interfaces to describe the shape of your objects, components props, and state.
+    2. Primitive Types: Be familiar with basic types like string, number, boolean, null, undefined, any, and unknown.
+    3. Type Inference: TypeScript can infer types based on how values are assigned. Leverage this to write cleaner code without over-specifying types.
+    4. Union and Intersection Types: Combine multiple types to make your data structures more flexible.
+  B. Typing React Components:
+    5. Function Components: Specify the type for component props.
+    6. Class Components: Less common with React Hooks, but still used.
+  C. Props and State Typing:
+    7. Props: Define the shape of the props your component will accept.
+    8. State: You can type the state in both class components and function components (if you're using useState).
+  D. Typing Hooks:
+    9. useState: You can provide an explicit type for the state, or TypeScript can infer it from the initial value.
+    10. useEffect: No special typing is needed for useEffect, but you can type any cleanup function or dependencies array.
+    11. useRef: Typing useRef is important, especially when referencing elements or values that may be null at some point.
+    12. useContext: Make sure the context value is typed correctly.
+  D. Typing Events:
+    13. React Native has a variety of events like touch, press, change, and more.
+  E. React Native Core Components:
+    14. React Native components like View, Text, Button, FlatList, and others.
+  F. Utility Type:
+    15. TypeScript provides several built-in utility types that are helpful in React Native development:
+        a. Partial: Makes all properties in a type optional.
+        b. Readonly: Ensures that all properties of an object are read-only.
+        c. Pick: Creates a new type by picking a set of properties from an existing type.
+        d. Omit: Creates a new type by omitting a set of properties from an existing type.
+  G. Typing APIs and Asynchronous Code:
+    16. Promises: When fetching data or performing async operations, make sure you properly type the return values.
+    17. Axios or Fetch: Typing API calls by specifying the expected shape of the response.
+  H. Type Guards and Narrowing:
+    18. Type Guards: Useful when handling different types in conditional logic.
+  I. Third-Party Libraries Typing:
+    19. React Navigation: When using navigation libraries, you’ll need to type navigation props.
+    20. Redux: When integrating Redux with TypeScript, typing the store, actions, reducers, and thunks is crucial.
+
+3. React Fundamentals:
+  A. JSX: How JSX works and its differences from HTML.
+  B. Components: Functional and class components.
+  C. Props and State: Passing data between components, managing local component state.
+  D. Hooks: Core hooks like useState, useEffect, and custom hooks.
+  E. Lifecycle Methods: For class components, understanding component lifecycle events (componentDidMount, componentDidUpdate, componentWillUnmount).
+  F. React Navigation: Basic routing between different screens in React Native.
+
+4. React Native-Specific Concepts:
+  A. Initialize and Environment Setup: React Native CLI using init a new project and Android & iOS platforms necessary environment setup. 
+  B. Core Components: View, Text, TextInput, ScrollView, FlatList, SectionList, etc.
+  C. Styling: FlexBox for layout, React Native’s styling system which is similar to CSS but with slight differences.
+  C. GlueStack UI: React Native components library for built in component support.
+  D. Handling User Input: Forms, input fields, gestures, and touch handling and Form state/error handling and validation library to use formik & yup.
+  E. React Native APIs: Using native modules like Camera, GPS, etc.
+  F. Platform-specific Code: Writing platform-specific code for iOS and Android using the Platform module.
+
+5. State Management:
+  A. Context API: React’s built-in way to pass state globally.
+  B. Redux Toolkit: A more structured approach to global state management are State, Action, Reducer & Dispatch core concepts. And also know essentials Redux middlewares are Redux Persist, Redux Thunk (createAsyncThunk), Redux Saga, RTK Query, Redux Logger and own your custom middlewares. Also used to Redux DevTools to debugging and watch data flow.
+
+6. Mobile App Architecture:
+  A. Component Design: Learn how to design reusable and modular components.
+  B. Folder Structure: Organizing the project files efficiently.
+  C. Data Flow: How data flows between components (unidirectional data flow).
+
+7. React Native Navigation:
+  A. Navigation: Learn how to navigate between different screens, passing data between routes, tab navigation, drawer navigation, etc.
+  B. Deep Linking: Linking external apps or URLs to specific screens in your React Native app.
+
+8. Working with Native Code (Optional but Useful):
+  A. Native Modules: How to integrate native code written in Java/Objective-C/Swift with React Native if needed.
+  B. Bridging: Communication between JavaScript and native code.
+
+9. Debugging and Testing:
+  A. Debugging: Using React Native Debugger, Flipper, or Chrome DevTools.
+  B. Testing: Using tools like Jest or Vitest for unit testing, React Native Testing Library for component testing, and Detox or Appium for end-to-end testing.
+  
+10. Performance Optimization:
+  A. Optimizing Re-renders: Learn about memoization techniques (React.memo, useMemo, useCallback).
+  B. Handling Large Lists: Efficiently rendering large lists with FlatList or SectionList.
+  C. Using Native Code for Performance: When to offload performance-heavy tasks to native modules.
+
+11. Deployment:
+  A. App Store & Play Store: Understanding the process of building, signing, and deploying apps to the Apple App Store and Google Play Store.
+  B. OTA Updates: Using CodePush for over-the-air updates.
+
+12. Popular Libraries in React Native:
+  A. UI Libraries: NativeBase, React Native Paper, React Native Elements.
+  B. Networking: Axios or fetch for API calls.
+  C. Async Storage: For persistent data storage.
+  D. Push Notifications: Using Firebase Cloud Messaging (FCM) or React Native Push Notification library.
+
+                                        </> THE END </>
