@@ -8,13 +8,14 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. ES6+ Features
 
+- [JavaScript ES6 Features](https://github.com/lukehoban/es6features)
 - `let`, `const`, arrow functions, destructuring.
 - Promises, async/await.
 - ES6 Modules: `import`, `export`, template literals, rest/spread operators.
 
 ### B. JavaScript Concepts
 
-- Closures, scopes, event loop.
+- [JavaScript Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures), scopes, event loop.
 - Prototype chain, `this` context.
 - Callbacks and promises in event-driven architecture.
 
@@ -24,22 +25,25 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. Basic TypeScript Syntax
 
+- [TypeScript Documentation](https://www.typescriptlang.org/docs)
 - **Primitive Types**: `string`, `number`, `boolean`, `any`, `unknown`, etc.
 - **Type Inference**: Let TypeScript infer types.
 - **Union & Intersection Types**: Master type flexibility.
 
 ### B. Typing React Components
 
+- [TypeScript with React](https://react-typescript-cheatsheet.netlify.app)
 - Function components with typed props.
 - Typing `useState`, `useEffect`, `useRef`.
 
 ### C. Typing Hooks
 
-- Focus on `useState`, `useEffect`, `useRef`, `useContext`.
+- [Using TypeScript with React Hooks](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks)
 
 ### D. Events, APIs, & Libraries
 
-- Ensure event typing and API typings with `Axios`, `Fetch`.
+- Axios TypeScript Guide
+- [React Navigation with TypeScript](https://reactnavigation.org/docs/typescript)
 - Redux and React Navigation typings.
 
 ---
@@ -48,21 +52,23 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. JSX
 
-- Understand how JSX works and its differences from HTML.
+- [JSX in React](https://reactjs.org/docs/introducing-jsx.html)
 
 ### B. Components
 
+- [React Components](https://reactjs.org/docs/components-and-props.html)
 - Functional and class components.
 - Props vs. State management.
 
 ### C. Hooks
 
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - Core hooks: `useState`, `useEffect`, `useMemo`, `useCallback`.
 - Custom Hooks for abstracting complex logic.
 
 ### D. Component Lifecycle
 
-- Class lifecycle methods and hooks lifecycle (`useEffect`).
+- [React Component Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
 
 ---
 
@@ -70,29 +76,31 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. Environment Setup
 
-- React Native CLI for project initialization (Expo for simpler projects).
+- [React Native CLI](https://reactnative.dev/docs/environment-setup)
+- [Expo](https://docs.expo.dev)
 
 ### B. Core Components
 
+- [React Native Core Components](https://reactnative.dev/docs/components-and-apis)
 - Master `View`, `Text`, `ScrollView`, `TextInput`, `FlatList`.
 
 ### C. Styling
 
-- Flexbox for layout.
-- Libraries: `Styled-Components` or `Tailwind CSS`.
+- [Flexbox in React Native](https://reactnative.dev/docs/flexbox)
+- Libraries: `Styled-Components` or [Tailwind CSS](https://www.nativewind.dev) for React Native.
 
 ### D. GlueStack UI
 
-- Learn UI libraries to speed up development.
+- [GlueStack Documentation](https://gluestack.io/ui/docs/home/overview/introduction)
 
 ### E. Handling Input & Forms
 
-- Forms, validation libraries like Formik and Yup.
+- Forms, validation libraries like [Formik](https://formik.org/docs/overview) and [Yup](https://github.com/jquense/yup).
 - Touch and gesture handling.
 
 ### F. Native APIs
 
-- Camera, GPS, other native modules.
+- [React Native Native Modules](https://reactnative.dev/docs/native-modules-intro)
 
 ### G. Platform-specific Code
 
@@ -104,12 +112,13 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. Context API
 
-- Use React’s native context for small apps or local state management.
+- [React Context API](https://reactjs.org/docs/context.html)
 
 ### B. Redux Toolkit
 
+- [Redux Toolkit Documentation](https://redux-toolkit.js.org)
 - Core concepts: State, Action, Reducer, Dispatch.
-- Middlewares: Redux Persist, Redux Thunk, Redux Saga, RTK Query, custom middleware.
+- Middlewares: [Redux Persist](https://github.com/rt2zz/redux-persist), [Redux Thunk](https://redux.js.org/usage/writing-logic-thunks), [Redux Saga](https://redux-saga.js.org), [RTK Query](https://redux-toolkit.js.org/rtk-query/overview).
 - Use Redux DevTools for debugging.
 
 ---
@@ -134,12 +143,13 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. React Navigation
 
+- [React Navigation Documentation](https://reactnavigation.org/docs/getting-started)
 - Stack, tab, and drawer navigation.
 - Passing data between screens.
 
 ### B. Deep Linking
 
-- Handle external app URLs or deep linking integrations.
+- [Deep Linking in React Native](https://reactnavigation.org/docs/deep-linking)
 
 ---
 
@@ -147,11 +157,11 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. Native Modules
 
-- Integrating native code (Java for Android, Objective-C/Swift for iOS).
+- [React Native Native Modules](https://reactnative.dev/docs/native-modules-intro)
 
 ### B. Bridging
 
-- Communicate between JavaScript and native code for custom native modules.
+- [React Native Bridging](https://reactnative.dev/docs/native-modules-android)
 
 ---
 
@@ -159,13 +169,14 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. Debugging Tools
 
-- React Native Debugger, Flipper, Chrome DevTools.
+- [React Native Debugging](https://reactnative.dev/docs/debugging)
+- [Flipper](https://fbflipper.com/), Chrome DevTools.
 
 ### B. Testing
 
-- Unit Testing: Jest or Vitest.
-- Component Testing: React Native Testing Library.
-- End-to-End Testing: Detox or Appium.
+- [Jest Documentation](https://jestjs.io/docs/getting-started)
+- [React Native Testing Library](https://callstack.github.io/react-native-testing-library)
+- [Detox Testing](https://wix.github.io/Detox)
 
 ---
 
@@ -173,11 +184,11 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. Optimizing Re-renders
 
-- Memoization techniques (`React.memo`, `useMemo`, `useCallback`).
+- [React Memoization Techniques](https://reactjs.org/docs/hooks-reference.html#usememo)
 
 ### B. Handling Large Lists
 
-- Efficient list rendering with `FlatList` or `SectionList`.
+- [Efficient List Rendering in React Native](https://reactnative.dev/docs/flatlist)
 
 ### C. Native Modules for Performance
 
@@ -189,11 +200,12 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. App Store & Play Store
 
-- Building, signing, and deploying apps for iOS and Android.
+- [Publishing to Play Store](https://reactnative.dev/docs/signed-apk-android)
+- [Publishing to App Store](https://reactnative.dev/docs/publishing-to-app-store)
 
 ### B. OTA (Over-The-Air) Updates
 
-- Use CodePush for seamless updates without App Store approval.
+- [CodePush Documentation](https://github.com/microsoft/react-native-code-push)
 
 ---
 
@@ -201,19 +213,20 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. UI Libraries
 
-- Explore `NativeBase`, `React Native Paper`, `React Native Elements`.
+- [NativeBase](https://nativebase.io), [React Native Paper](https://callstack.github.io/react-native-paper), [React Native Elements](https://react-native-elements.github.io/react-native-elements).
 
 ### B. Networking
 
-- API calls with `Axios` or native `fetch`.
+- [Axios Documentation](https://axios-http.com/docs/intro)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 ### C. Async Storage
 
-- Understand Async Storage for persistent local storage.
+- [Async Storage](https://react-native-async-storage.github.io/async-storage)
 
 ### D. Push Notifications
 
-- Integrate Firebase Cloud Messaging (FCM) or React Native Push Notification library.
+- [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging) or [React Native Push Notification](https://github.com/zo0r/react-native-push-notification).
 
 ---
 
@@ -221,7 +234,7 @@ A comprehensive guide for becoming a proficient React Native developer, includin
 
 ### A. Animations
 
-- Learn React Native Reanimated for smooth animations.
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated)
 
 ### B. Advanced Features
 
